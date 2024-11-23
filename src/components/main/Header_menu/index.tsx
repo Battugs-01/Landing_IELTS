@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeaderMenu() {
   return (
-    <header className="left-0 right-0 top-4 border-[3px] w-[90%] md:w-full mx-auto rounded-2xl shadow-xs bg-indigo-a700 backdrop-blur-md container fixed px-4 py-2">
+    <header className="left-0 right-0 top-4 border-[3px] w-[90%] md:w-full mx-auto rounded-2xl shadow-xs bg-indigo-a700 backdrop-blur-md container fixed px-4 py-2 z-20">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <Link href="/">

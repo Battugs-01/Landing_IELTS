@@ -1,3 +1,4 @@
+import { Footer } from "@/components/main/Footer";
 import Header from "@/components/main/Header";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
@@ -62,7 +63,7 @@ export default async function LocaleLayout({
           <div className="w-full overflow-hidden bg-white-a700">
             <Header />
             {children}
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </NextIntlClientProvider>
       </body>
