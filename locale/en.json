@@ -1,0 +1,77 @@
+{
+  "Home": {
+    "title": "Home",
+    "login": "Login"
+  },
+  "Header": {
+    "products": "Products",
+    "solution": "Solution",
+    "companies": "Companies",
+    "pricing": "Pricing",
+    "contact_us": "Contact us",
+    "sign_in": "Sign in",
+    "sign_up": "Sign up",
+    "sign_out": "Sign out"
+  },
+  "HeaderMenu": {
+    "simplehost": "Simplehost",
+    "simplehost_description_1": "Easy to set up",
+    "simplehost_description_2": "Complete management system",
+    "simplehost_description_3": "Pay as you go",
+
+    "app_platform": "App Platform",
+    "app_platform_description_1": "Github, Gitlab, Docker",
+    "app_platform_description_2": "Scalable",
+    "app_platform_description_3": "Control",
+
+    "object_storage": "Object Storage",
+    "object_storage_description_1": "Secure",
+    "object_storage_description_2": "Easy to transfer files",
+    "object_storage_description": "Их хэмжээний өгөгдлөө найдвартай хадгалаад, хүссэн үедээ хүссэн газраасаа хандах боломжтой",
+
+    "managed_kubernetes": "Managed Kubernetes",
+    "managed_kubernetes_description_1": "Container application",
+    "managed_kubernetes_description_2": "CI/CD",
+    "managed_kubernetes_description_3": "Fault tolerance",
+    "managed_kubernetes_description": "Контейнеруудаа автомат жолоодлого дээр байрлуулж, K8-ийн туршлага бага эсвэл огт шаардлагагүйгээр аж ахуйн нэгжийнхээ ажлын ачааллыг найдвартай ажиллуул.",
+
+    "virtual_server": "Virtual Server",
+    "virtual_server_description_1": "High performance",
+    "virtual_server_description_2": "Scalable",
+    "virtual_server_description_3": "Secure",
+    "virtual_server_description": "Виртуал сервер (VPS) гэдэг нь физик буюу бодит серверийг виртуалчлалын технологийг ашиглан, бие даасан хүчин чадалтай бүрэн хандалтын эрхтэй, бие биенээс нь хамааралгүй ажиллахаар тохируулагдсан зохиомлоор үүсгэсэн сервер юм. ",
+
+    "web_hosting": "Web Hosting",
+    "web_hosting_description": "The latest industry news updates and info",
+    "web_hosting_tag_1": "Virtual Server",
+    "web_hosting_tag_2": "Simplehost",
+    "web_hosting_tag_3": "App Platform",
+
+    "web_and_mobile": "Web and Mobile apps",
+    "web_and_mobile_description": "The latest industry news updates and info",
+    "web_and_mobile_tag_1": "Virtual Server",
+    "web_and_mobile_tag_2": "Simplehost",
+    "web_and_mobile_tag_3": "App Platform",
+
+    "container_tech": "Container Technology",
+    "container_tech_description": "The latest industry news updates and info",
+    "container_tech_tag_1": "Managed Kubernetes",
+
+    "file_transfer": "File Transfer",
+    "file_transfer_description": "The latest industry news updates and info",
+    "file_transfer_tag_1": "transfer.cloud.mn",
+
+    "cloud_server": "Cloud Server",
+    "cloud_server_description": "The latest industry news updates and info",
+    "cloud_server_tag_1": "Virtual Server",
+
+    "cloud_storage": "Cloud Storage",
+    "cloud_storage_description": "The latest industry news updates and info",
+    "cloud_storage_tag_1": "Object Storage",
+    "cloud_storage_tag_2": "drive.cloud.mn",
+
+    "online_meeting": "Online Meeting",
+    "online_meeting_description": "The latest industry news updates and info",
+    "online_meeting_tag_1": "meeting.cloud.mn"
+  }
+}
