@@ -1,6 +1,7 @@
 // import { useTranslations } from "next-intl";
 import { ReviewSection } from "@/components/main/ReviewSection";
 import { REVIEWS } from "@/lib/config";
+import AvailableCoursesSection from "@/components/main/AvailableCources";
 
 export default function Home() {
   // const t = useTranslations("Home");
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* <div>{t("title")}</div> */}
       <ReviewSection reviews={REVIEWS} />
+      <AvailableCoursesSection />
     </main>
   );
 }
