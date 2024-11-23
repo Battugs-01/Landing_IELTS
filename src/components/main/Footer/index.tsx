@@ -5,7 +5,7 @@ type Props = {};
 
 export const Footer: FC<Props> = () => {
   return (
-    <footer className="bg-blue-800 p-8 text-white-a700 font-light">
+    <footer className="bg-indigo-a700 p-8 text-white-a700 font-light">
       <div className="container mx-auto flex justify-between">
         <div className="text-md">
           <h1 className="text-5xl font-bold mb-4">Good design is aesthetic.</h1>

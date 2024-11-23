@@ -1,18 +1,11 @@
 "use client";
+import { REVIEWS } from "@/lib/config";
 import { FC } from "react";
 import Marquee from "react-fast-marquee";
 
-type Props = {
-  reviews: {
-    review: string;
-    author: string;
-    company: string;
-  }[];
-};
-
-export const ReviewSection: FC<Props> = ({ reviews }) => {
+export const ReviewSection: FC = () => {
   return (
-    <div className="container mx-auto flex flex-col items-center gap-32">
+    <div className="container mx-auto flex flex-col items-center gap-16 py-20">
       <div className="overflow-hidden w-full">
         <Marquee
           direction="right"
@@ -22,7 +15,7 @@ export const ReviewSection: FC<Props> = ({ reviews }) => {
           gradientWidth="50px"
           className="flex gap-8 items-start"
         >
-          {reviews.map(({ review, author, company }, index) => (
+          {REVIEWS.map(({ review, author, company }, index) => (
             <div
               className="w-[300px] text-center flex-shrink-0 duration-200 ease-in-out"
               key={index}
@@ -34,7 +27,8 @@ export const ReviewSection: FC<Props> = ({ reviews }) => {
           ))}
         </Marquee>
       </div>
-      <div className="w-full aspect-[16/9] rounded-xl relative">
+      <div className="w-[200px] h-[2px] bg-gray-300"></div>
+      <div className="w-full aspect-[2] rounded-xl relative">
         <video
           src="https://www.pexels.com/download/video/2795164/"
           autoPlay

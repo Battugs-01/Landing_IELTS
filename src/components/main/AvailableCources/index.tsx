@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import DesignCard from "./DesignCard";
 import React, { Suspense } from "react";
 import { COURSES } from "../../../lib/config";

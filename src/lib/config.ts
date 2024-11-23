@@ -117,6 +117,8 @@ export const COURSES = [
     category: "category1",
     image: "/images/availableCource1.png",
     profile: "/images/profile1.png",
+  },
+];
 export const TEAM_MEMBER = [
   {
     userName: "Anna Smith",
@@ -150,4 +152,13 @@ export const TEAM_MEMBER = [
     ],
     userImage: "/images/image copy 2.png",
   },
+];
+export const UNIVERSITIES = Array(5)
+  .fill(0)
+  .map((_, i) => `/images/university${i}.png`);
+export const FAQ_QUESTIONS = [
+  "Is the theme license lifetime?",
+  "Access as an admin/teacher user",
+  "Refund Policy",
+  "Does this theme support IOMAD?",
 ];

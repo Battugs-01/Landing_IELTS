@@ -1,14 +1,13 @@
-import { Suspense } from "react";
 import Image from "next/image";
 
-interface TeamMember {
+type TeamMember = {
   userName: string;
   userTitle: string;
   userDescription: string[];
   userImage: string;
-}
+};
 
-const TeamMemberCard = ({
+export const TeamMemberCard = ({
   userName,
   userTitle,
   userDescription,
@@ -41,5 +40,3 @@ const TeamMemberCard = ({
     </div>
   );
 };
-
-export default TeamMemberCard;

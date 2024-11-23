@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { FC, useState } from "react";
 
-interface DesignCardProps {
+type DesignCardProps = {
   title: string;
   instructor: string;
   startDate: string;
@@ -8,9 +8,9 @@ interface DesignCardProps {
   price: string;
   image: string;
   profile: string;
-}
+};
 
-const DesignCard: React.FC<DesignCardProps> = ({
+const DesignCard: FC<DesignCardProps> = ({
   title,
   instructor,
   startDate,
