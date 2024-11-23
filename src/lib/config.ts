@@ -117,5 +117,37 @@ export const COURSES = [
     category: "category1",
     image: "/images/availableCource1.png",
     profile: "/images/profile1.png",
+export const TEAM_MEMBER = [
+  {
+    userName: "Anna Smith",
+    userTitle: "Professor of Child and Family Psychology",
+    userDescription: [
+      "With supporting text below as a natural lead-in to additional content.",
+    ],
+    userImage: "/images/image.png",
+  },
+  {
+    userName: "John Davis",
+    userTitle: "Child Development Specialist",
+    userDescription: [
+      "With supporting text below as a natural lead-in to additional content.",
+    ],
+    userImage: "/images/image copy.png",
+  },
+  {
+    userName: "Sarah Wilson",
+    userTitle: "Family Counselor",
+    userDescription: [
+      "With supporting text below as a natural lead-in to additional content.",
+    ],
+    userImage: "/images/image copy 3.png",
+  },
+  {
+    userName: "Michael Brown",
+    userTitle: "Educational Psychologist",
+    userDescription: [
+      "With supporting text below as a natural lead-in to additional content.",
+    ],
+    userImage: "/images/image copy 2.png",
   },
 ];

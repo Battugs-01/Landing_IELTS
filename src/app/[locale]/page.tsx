@@ -2,6 +2,7 @@
 import { ReviewSection } from "@/components/main/ReviewSection";
 import { REVIEWS } from "@/lib/config";
 import AvailableCoursesSection from "@/components/main/AvailableCources";
+import Team from "@/components/main/Team";
 
 export default function Home() {
   // const t = useTranslations("Home");
@@ -11,6 +12,7 @@ export default function Home() {
       {/* <div>{t("title")}</div> */}
       <ReviewSection reviews={REVIEWS} />
       <AvailableCoursesSection />
+      <Team />
     </main>
   );
 }
