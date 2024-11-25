@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   icons: {
-    // icon: "/favicon.ico",
-    // shortcut: "/favicon-16x16.png",
-    // apple: "/apple-touch-icon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
   },
-  // manifest: `/site.webmanifest`,
+  manifest: `/site.webmanifest`,
 
   keywords: [
     "Англи хэл сурах",
