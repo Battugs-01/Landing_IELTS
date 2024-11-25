@@ -1,8 +1,8 @@
 // import { useTranslations } from "next-intl";
-import { ReviewSection } from "@/components/main/ReviewSection";
 import AvailableCoursesSection from "@/components/main/AvailableCources";
-import { TeamSection } from "@/components/main/TeamSection";
 import { FaqSection } from "@/components/main/FaqSection";
+import { ReviewSection } from "@/components/main/ReviewSection";
+import { TeamSection } from "@/components/main/TeamSection";
 
 export default function Home() {
   // const t = useTranslations("Home");

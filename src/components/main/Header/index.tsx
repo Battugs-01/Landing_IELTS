@@ -1,4 +1,6 @@
+import SlideUpWhenVisible from "@/components/ui/animate_when_visible";
 import HeaderMenu from "../Header_menu";
+import ScholasticaMoodle from "../ScolosticalMoodle";
 
 export default function Header() {
   return (
@@ -6,7 +8,11 @@ export default function Header() {
       <div className="h-[680px]">
         <HeaderMenu />
       </div>
-      <header className="container-xs absolute left-0 right-0 top-0 flex justify-center lg:px-5 md:px-5"></header>
+      <div className="flex justify-center lg:px-5 md:px-5 absolute bottom-0 left-[13%] top-44">
+        <SlideUpWhenVisible from="left">
+          <ScholasticaMoodle />
+        </SlideUpWhenVisible>
+      </div>
     </div>
   );
 }

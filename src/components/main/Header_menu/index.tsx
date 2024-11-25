@@ -1,16 +1,22 @@
+"use client";
+
+import HamburerMenu from "@/components/ui/modile_menu";
 import { MENU_ITEMS } from "@/lib/config";
-import { LogOut } from "lucide-react";
+import { AlignJustify, LogOut } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function HeaderMenu() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="left-0 right-0 top-4 border-[3px] w-[90%] md:w-full mx-auto rounded-2xl shadow-xs bg-indigo-a700 backdrop-blur-md container fixed px-4 py-2 z-20">
-      <div className="flex items-center justify-between">
+      {/* Desktop Menu */}
+      <div className="md:flex items-center justify-between hidden">
         <div className="flex items-center gap-2.5">
           <Link href="/">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt="Logo"
               width={50}
               height={50}
@@ -39,12 +45,39 @@ export default function HeaderMenu() {
             </p>
           </div>
           <div className="h-[16px] w-px bg-white-a700_a5"></div>
-          <button className="flex h-[36px] min-w-[94px] flex-row items-center justify-center gap-2 rounded-[18px] bg-lime-400 px-4 text-center text-[12px] hover:bg-lime-300 transition-all duration-200">
+          <button className="flex h-[36px] min-w-[94px] flex-row items-center justify-center gap-2 rounded-[18px] bg-[#d3ff24] px-4 text-center text-[12px] hover:bg-lime-400 transition-all duration-200">
             Log in
             <LogOut className="w-4 h-4" />
           </button>
         </div>
       </div>
+      {/* Mobile Menu */}
+      <div className="md:hidden flex items-center justify-between">
+        <div className="flex items-center gap-1">
+          <AlignJustify
+            className="w-6 h-6 text-white-a700"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          />
+          <Link href="/">
+            <Image
+              src="/images/logo.png"
+              alt="Logo"
+              width={50}
+              height={50}
+              className="ml-4 object-contain"
+            />
+          </Link>
+        </div>
+        <button className="flex h-[36px] min-w-[94px] flex-row items-center justify-center gap-2 rounded-[18px] bg-[#d3ff24] px-4 text-center text-[12px] hover:bg-lime-400 transition-all duration-200">
+          Log in
+          <LogOut className="w-4 h-4" />
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <HamburerMenu open={isMenuOpen} onOpenChange={setIsMenuOpen} />
+      )}
     </header>
   );
 }

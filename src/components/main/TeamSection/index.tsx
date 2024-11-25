@@ -1,6 +1,6 @@
+import { TEAM_MEMBER, UNIVERSITIES } from "@/lib/config";
 import { FC, Suspense } from "react";
 import { TeamMemberCard } from "./Card";
-import { TEAM_MEMBER, UNIVERSITIES } from "@/lib/config";
 
 export const TeamSection: FC = () => {
   return (
@@ -34,7 +34,7 @@ export const TeamSection: FC = () => {
           <p className="text-xs font-extralight">
             Trusted by hundreds of customers
           </p>
-          <div className="flex justify-between gap-4">
+          <div className="flex justify-between gap-6">
             {UNIVERSITIES.map((university, index) => (
               <img
                 src={university}

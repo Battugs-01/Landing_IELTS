@@ -156,9 +156,26 @@ export const TEAM_MEMBER = [
 export const UNIVERSITIES = Array(5)
   .fill(0)
   .map((_, i) => `/images/university${i}.png`);
+
 export const FAQ_QUESTIONS = [
-  "Is the theme license lifetime?",
-  "Access as an admin/teacher user",
-  "Refund Policy",
-  "Does this theme support IOMAD?",
+  // "Is the theme license lifetime?",
+  // "Access as an admin/teacher user",
+  // "Refund Policy",
+  // "Does this theme support IOMAD?",
+  {
+    question: "Is the theme license lifetime?",
+    answer: "Yes, the theme license is lifetime.",
+  },
+  {
+    question: "Access as an admin/teacher user",
+    answer: "Yes, the theme license is lifetime.",
+  },
+  {
+    question: "Refund Policy",
+    answer: "Yes, the theme license is lifetime.",
+  },
+  {
+    question: "Does this theme support IOMAD?",
+    answer: "Yes, the theme license is lifetime.",
+  },
 ];
