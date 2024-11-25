@@ -14,18 +14,6 @@ export const FaqSection: FC = () => {
         List of the most common questions about a premium Alpha Moodle theme.
       </p>
       <div className="flex flex-col items-stretch w-full mx-32 gap-4">
-        {/* {FAQ_QUESTIONS.map((question, index) => (
-          <div
-            className="flex justify-between p-4 bg-gray-100 rounded-3xl group hover:bg-gray-300 duration-200 ease-in-out"
-            key={index}
-          >
-            <span className="text-lg font-bold">{question.question}</span>
-            <img
-              src="/images/arrow.svg"
-              className="-rotate-90 duration-200 ease-in-out group-hover:rotate-0"
-            />
-          </div>
-        ))} */}
         <Accordion type="single" collapsible className="space-y-8">
           {FAQ_QUESTIONS.map((faq, index) => (
             <div

@@ -1,5 +1,3 @@
-"use client";
-
 import { COURSES } from "@/lib/config";
 import { Suspense } from "react";
 import DesignCard from "./DesignCard";

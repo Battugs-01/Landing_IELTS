@@ -1,4 +1,3 @@
-"use client";
 import { REVIEWS } from "@/lib/config";
 import { FC } from "react";
 import Marquee from "react-fast-marquee";
