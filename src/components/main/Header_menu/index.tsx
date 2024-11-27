@@ -20,6 +20,7 @@ export default function HeaderMenu() {
               alt="Logo"
               width={50}
               height={50}
+              
               className="ml-4 object-contain"
             />
           </Link>
